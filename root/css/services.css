@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway:200,300,400');
+/*
+//////FONTS//////
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+//////COLORS//////
+#346469
+#5ca2aa
+#a6b0c0 - GRAY
+#a3c260; - green border
+#867362; - light brown
+*/
+
+/* main, section, aside, article, header, footer, nav, video, audio, figure {
+    display: block;
+} */
+
+/* //////MOBILE FIRST:////// */
+
+
+
+/*************** MEL'S CODE *****************/
+.carousel {
+  height: 200px;
+
+/*    background: linear-gradient(to right, #2c401f, #26520d);*/
+    background: linear-gradient(#26520d, #407314, #7ba129);
+
+}
+.imgCarousel {
+	height: 200px;
+	background: url(../images/services/zen-wallpaper-hd-1500sm2.png) center no-repeat;
+}
+section {
+	width: 100%;
+	height: 100%;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+.service-sec {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    width: 370px;
+    margin: 15px 25px 0 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.service-sec span {
+/*    padding:  10px 0 important!;*/
+
+}
+#borders{
+    display: block;
+    max-width:100%;
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;
+    padding-bottom: 5px;
+/*        -webkit-margin-after: -0.5em;*/
+}
+.service_images{
+    -webkit-margin-before: 2em;
+    width: 150px;
+    height: 150px;
+}
+section h4 {
+    text-align: center;
+    -webkit-margin-after: -.01em;
+
+}
+.service-fee{
+    text-align: center;
+    color: #a3c260;
+    font-weight: 700;
+    font-size: 20px;
+}
+.duration {
+    text-align: center;
+}
+
+article p{
+    text-align: center;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    width: 350px
+}
+
+.request-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    background-color:  #867362;
+/*    background-color: #775d42;*/
+    color: #fff;
+    border-radius: 0 10px 0 10px;
+    /*  border-radius: 21px;*/
+}
+.appBanner {
+  width: 100%;
+  height: 200px;
+  background: url(../images/services/spaLobby2crop.jpg) no-repeat center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+iframe.myFrame {
+   width: 100%!important;
+   height: 700px!important;
+}
+ 
+@media screen and (min-width: 415px){
+
+iframe.myFrame {
+    width: 100%!important;
+    height: 700px!important;
+}
+ 
+} 
+
+
+
+
+
+
+
+
+
+
+/*************** END MEL'S CODE *****************/
+
+
+
+
+
+/************* MEL's MEDIA QUERY ************************/
+
+/*  Breakpoint 1 (iPhone 6+): 414px     */
+/*@media only screen and (max-width: 414px) */
